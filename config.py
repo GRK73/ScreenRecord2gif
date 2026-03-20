@@ -1,7 +1,7 @@
 import os
 
 # 사용자 설정
-HOTKEY = "ctrl+shift+9"  # 글로벌 단축키
+HOTKEY = "ctrl+shift+x"  # 글로벌 단축키
 BUFFER_SECONDS = 60      # 유지할 과거 시간(초)
 FPS = 10                 # 초당 캡처 프레임 수
 OUTPUT_DIR = "output"    # 저장될 폴더
