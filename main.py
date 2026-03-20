@@ -122,8 +122,8 @@ def main():
     recorder = BackgroundRecorder(fps=config.FPS, buffer_seconds=config.BUFFER_SECONDS)
     recorder.start()
     
-    print(f"\n✅ 단축키 활성화: [{config.HOTKEY}]")
-    print(f"✅ 설정 버퍼: {config.BUFFER_SECONDS}초 / {config.FPS}FPS")
+    print(f"\n[설정] 단축키 활성화: [{config.HOTKEY}]")
+    print(f"[설정] 설정 버퍼: {config.BUFFER_SECONDS}초 / {config.FPS}FPS")
     print("프로그램을 종료하시려면 콘솔에서 Ctrl+C를 누르세요.\n")
     
     # 2. 글로벌 단축키 등록 및 실행 (pynput 방식)
